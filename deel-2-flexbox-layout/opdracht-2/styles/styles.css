@@ -1,1 +1,40 @@
-/*Schrijf hier jouw CSS*/
+/*sorry ik kom er gewoon even niet uit.. ik hoop dat we deze huiswerk opdracht nog na bespreken*/
+body {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.col-1 {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 700px;
+    width: 30vh;
+}
+.col-2 {
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    width: 100%;
+    justify-self: flex-start;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: flex-start;
+    align-self: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    align-self: start;
+}
+.footer {
+    display: flex;
+    align-self: end;
+    flex-direction: column;
+}
